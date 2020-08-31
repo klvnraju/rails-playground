@@ -1,8 +1,9 @@
 {
-    "settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
+  "postCreateCommand": ".devcontainer/postCreate.sh",
+  "settings": { 
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
 		"rebornix.Ruby"
 	]
 }
